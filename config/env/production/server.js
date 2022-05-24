@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   proxy: true,
-  url: env("https://fierce-temple-38026.herokuapp.com/"),
+  url: env("MY_HEROKU_URL"),
   app: {
     keys: env.array("APP_KEYS"),
   },
