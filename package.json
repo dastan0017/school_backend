@@ -19,6 +19,9 @@
     "pg-connection-string": "^2.5.0",
     "sqlite3": "^5.0.8"
   },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
   "author": {
     "name": "A Strapi developer"
   },
